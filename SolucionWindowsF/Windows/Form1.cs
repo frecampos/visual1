@@ -16,5 +16,10 @@ namespace Windows
         {
             InitializeComponent();
         }
+
+        private void btnok_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hola mundo real");
+        }
     }
 }
