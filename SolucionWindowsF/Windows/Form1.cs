@@ -19,10 +19,16 @@ namespace Windows
 
         private void btnok_Click(object sender, EventArgs e)
         {
+            int x = 0;
+            x = 88;
             MessageBox.Show("hola mundo real");
-            if (true)
+            if (x>8)
             {
                 MessageBox.Show("nuevo mensaje");
+            }
+            else
+            {
+                MessageBox.Show("otro mensaje");
             }
         }
     }
