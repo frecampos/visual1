@@ -27,5 +27,10 @@ namespace Windows
                 MessageBox.Show("nuevo mensaje");
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("nuevos datos");
+        }
     }
 }
