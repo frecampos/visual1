@@ -20,6 +20,7 @@ namespace Windows
         private void btnok_Click(object sender, EventArgs e)
         {
             int x = 1;
+            MessageBox.Show(""+x);
             MessageBox.Show("hola mundo real");
             if (true)
             {
